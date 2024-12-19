@@ -1,4 +1,4 @@
 # bretwalda
 # Introduction
-Bretwalda is a text-based strategic wargame based in the British Isles at the dawn of the 7th century AD.
-(CONTEXT: This repository was imagined, created, & developed by a 3rd-year CS student to review/refine basic programming skills in Java.)
+Bretwalda is a single-player, text-based strategic wargame set in the 7th century (600 AD) wherein the player must attempt to carefully manage their limited troops & resources in order to defeat their rivals in simulated battles and stake their claim to the title of *Bretwalda*, High King of the British Isles.
+\n(FOR CONTEXT: This repository was imagined, created, & developed by a 3rd-year CS student to review/refine basic programming skills in Java.)
