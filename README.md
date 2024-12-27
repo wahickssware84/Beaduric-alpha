@@ -1,5 +1,5 @@
 # Project Description
-bretwalda-alpha is a single-player, text-based strategy game set in 7th century northwestern Europe wherein the player must carefully manage their limited troops and resources in order to defeat their rivals in simulated battles.
+bretwalda-alpha is a single-player, text-based strategy game set in seventh-century northwestern Europe wherein the player must carefully manage their limited troops and resources in order to defeat their rivals in simulated battles.
 (CONTEXT: This repository was planned, created, & developed by a college student to refine basic programming skills in Java).
 # Gameplay (How to Play)
 // NOTHING HERE YET
