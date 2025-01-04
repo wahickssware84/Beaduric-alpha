@@ -1,4 +1,4 @@
-package bretwaldan;
+package brytenwealda;
 
 public class Player {
   

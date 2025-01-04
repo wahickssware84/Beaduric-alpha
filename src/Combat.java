@@ -1,4 +1,4 @@
-package bretwaldan;
+package brytenwealda;
 
 public class Combat {
   double rateOfAttrition = 1.0;
