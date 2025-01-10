@@ -1,9 +1,8 @@
-package brytenwealda;
-
 import java.util.Scanner;
 
 /**
- * @author wahickssware84
+ * @param
+ * @return
  */
 public class Brytenwealda {
 
@@ -19,8 +18,11 @@ public class Brytenwealda {
     }
 
     public static void displayWindow() {
-        int x = "*****************************************";
-        System.out.println(x);
+        char x = '*';
+        int y = 40;
+        for (int i = 0; i < y; ++i) {
+            System.out.println(x);
+        }
     }
 
 }

@@ -1,5 +1,3 @@
-package brytenwealda;
-
 /**
  * @param
  * @return
