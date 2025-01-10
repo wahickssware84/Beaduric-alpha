@@ -4,6 +4,6 @@ package brytenwealda;
  * @param
  * @return
  */
-public class Spawn {
+public class Environment {
 
 }

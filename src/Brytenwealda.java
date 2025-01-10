@@ -3,8 +3,7 @@ package brytenwealda;
 import java.util.Scanner;
 
 /**
- * @param 
- * @author wahic
+ * @author wahickssware84
  */
 public class Brytenwealda {
 
@@ -20,7 +19,8 @@ public class Brytenwealda {
     }
 
     public static void displayWindow() {
-        System.out.println("*****************************************");
+        int x = "*****************************************";
+        System.out.println(x);
     }
 
 }

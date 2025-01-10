@@ -1,5 +1,10 @@
 package brytenwealda;
 
-public class Kingdom {
+/**
+ * @param
+ * @return
+ */
+public class Kingdom(int kingdomID)
+{
   
 }
