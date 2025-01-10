@@ -10,9 +10,9 @@ public class Brytenwealda {
         // Create Scanner object
         Scanner in = new Scanner(System.in);
         // Introduction.
-        System.out.println("\nWelcome to Brytenwealda!\n");
+        System.out.println("\n\tWelcome to Brytenwealda!\n");
         displayWindow();
-        System.out.println("\n\tSelect your faction:\n");
+        System.out.println("\n\t- CHOOSE YOUR FACTION -\n");
         displayWindow();
 
     }
@@ -21,7 +21,7 @@ public class Brytenwealda {
         char x = '*';
         int y = 40;
         for (int i = 0; i < y; ++i) {
-            System.out.println(x);
+            System.out.print(x);
         }
     }
 
