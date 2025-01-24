@@ -13,9 +13,6 @@ B. The difference (ratio) in manpower between the two armies.
 
 // Difficulty settings - Easy, Normal, Hard, and Very Hard. In Easy difficulty, all affected variables will be skewed in the player's favor. In Hard difficulty, all affected variables will be skewed in the enemy's favor. In Normal difficulty, all variables will remain unaffected. In Very Hard difficulty, the enemy will have a larger manpower pool than the player, in addition to the other aforementioned malefactors.
 # Bugs & Issues
-// (Nothing to see here)
+// (Nothing here yet)
 # Documentation
-// JAVADOC
-// N.B. add more documentation to this repository (i.e., files, documents, etc.)
-# License
-// MIT LICENSE
+// JavaDoc

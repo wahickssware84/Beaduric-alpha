@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-/**
- * @param
- * @return
- */
 public class Brytenwealda {
 
     public static void main(String[] args) {

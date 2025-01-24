@@ -76,5 +76,5 @@ public enum Germanic {
     Gerlach,
     Godefrid,
     Godwine,
-    Aelle
+    Leofwine
 }
