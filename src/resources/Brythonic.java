@@ -1,9 +1,40 @@
 package resources;
 
 public enum Brythonic {
-    // IF (chosenFaction = Britons) OR IF (chosenFaction = Picts) THEN
-    // (playerFactionID = chosenFactionID)
-    // IF (chosenFaction = Gaels)
-    Llewellyn,
-
+    Aneirin,
+    Arthmael,
+    Brochmail,
+    Brychan,
+    Cadfan,
+    Cadoc,
+    Caratacus,
+    Caratauc,
+    Catell,
+    Catguocan,
+    Cunobelinus,
+    Cynwrig,
+    Dewydd,
+    Elisedd,
+    Enniaun,
+    Grifud,
+    Guorthigirn,
+    Higuel,
+    Iudgual,
+    Iudhail,
+    Iudris,
+    Laloecen,
+    Mailcun,
+    Margetud,
+    Matauc,
+    Mermin,
+    Morcant,
+    Mouric,
+    Nynniaw,
+    Ougein,
+    Riderch,
+    Ris,
+    Rotri,
+    Seisyll,
+    Toutorixs,
+    Urbgen
 }
