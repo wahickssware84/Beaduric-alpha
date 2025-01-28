@@ -1,6 +1,6 @@
 package resources;
 
-// FORMAT = Brythonic.randomizer() + " map " + Brythonic.randomizer()
+// FORMAT: Brythonic.randomizer() + " map " + Brythonic.randomizer() = playerName;
 public enum Brythonic {
     Aneirin,
     Arthmael,

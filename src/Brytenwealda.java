@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Brytenwealda {
 
     public static void main(String[] args) {
+        String factionID;
         // Create Scanner object
         Scanner in = new Scanner(System.in);
         // Introduction.
@@ -10,6 +11,8 @@ public class Brytenwealda {
         displayWindow();
         System.out.println("\n\t- CHOOSE YOUR FACTION -\n");
         displayWindow();
+        factionID = in.nextLine();
+        selectFaction(factionID);
 
     }
 

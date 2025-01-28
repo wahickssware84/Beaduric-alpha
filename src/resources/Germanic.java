@@ -1,5 +1,7 @@
 package resources;
 
+// IF Anglic.randomizer() ends with a vowel (a/e/i/o/u/y) THEN: Anglic.randomizer() + " " + Anglic.randomizer() + "ning" = playerName;
+// ELSE: Anglic.randomizer() + " " + Anglic.randomizer() + "ing" = playerName;
 public enum Germanic {
     Aelfgar,
     Aelfheah,
