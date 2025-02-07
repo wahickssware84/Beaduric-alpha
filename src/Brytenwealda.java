@@ -12,12 +12,12 @@ public class Brytenwealda {
         String faction = "";
         String intro = ("Welcome to Brytenwealda!\n");
         String factionPrompt = ("- CHOOSE YOUR FACTION -\n" +
-                        "1. Angles\n" + //     (Germanic, Pagan)
-                        "2. Saxons\n" + //     (Germanic, Pagan)
-                        "3. Jutes\n" + //      (Germanic, Christian)
-                        "4. Britons\n" + //    (Brythonic, Christian)
-                        "5. Picts\n" + //      (Brythonic, Pagan)
-                        "6. Gaels\n"); //      (Goidelic, Pagan)
+                "1. Angles\n" + // (Germanic, Pagan)
+                "2. Saxons\n" + // (Germanic, Pagan)
+                "3. Jutes\n" + // (Germanic, Christian)
+                "4. Britons\n" + // (Brythonic, Christian)
+                "5. Picts\n" + // (Brythonic, Pagan)
+                "6. Gaels\n"); // (Goidelic, Pagan)
 
         Scanner in = new Scanner(System.in);
 

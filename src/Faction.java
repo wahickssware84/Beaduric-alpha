@@ -15,13 +15,16 @@ public class Faction {
 
     public Integer getFactionID() {
         this.factionID = factionID;
+        return factionID;
     }
 
     public String getFaction() {
         this.faction = faction;
+        return faction;
     }
 
     public String getDescription() {
         this.description = description;
+        return description;
     }
 }

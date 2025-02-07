@@ -15,13 +15,16 @@ public class Kingdom {
 
     public Integer getKingdomID() {
         this.kingdomID = kingdomID;
+        return kingdomID;
     }
 
     public Integer getKingdomPool() {
         this.kingdomPool = kingdomPool;
+        return kingdomPool;
     }
 
     public String getKingdom() {
         this.kingdom = kingdom;
+        return kingdom;
     }
 }

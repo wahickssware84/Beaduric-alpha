@@ -19,21 +19,26 @@ public class Enemy {
 
     public String getName() {
         this.name = name;
+        return name;
     }
 
     public Integer getMelee() {
         this.melee = melee;
+        return melee;
     }
 
     public Integer getRanged() {
         this.ranged = ranged;
+        return ranged;
     }
 
     public Integer getManpower() {
         this.manpower = manpower;
+        return manpower;
     }
 
     public Integer getFirepower() {
         this.firepower = firepower;
+        return firepower;
     }
 }

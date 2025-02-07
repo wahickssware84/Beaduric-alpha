@@ -15,13 +15,16 @@ public class Culture {
 
     public Integer getCultureID() {
         this.cultureID = cultureID;
+        return cultureID;
     }
 
     public String getCulture() {
         this.culture = culture;
+        return culture;
     }
 
     public String getFaith() {
         this.faith = faith;
+        return faith;
     }
 }

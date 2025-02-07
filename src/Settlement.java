@@ -15,13 +15,16 @@ public class Settlement {
 
     public Integer getSettlementID() {
         this.settlementID = settlementID;
+        return settlementID;
     }
 
     public Integer getSettlementPool() {
         this.settlementPool = settlementPool;
+        return settlementPool;
     }
 
     public String getSettlement() {
         this.settlement = settlement;
+        return settlement;
     }
 }
