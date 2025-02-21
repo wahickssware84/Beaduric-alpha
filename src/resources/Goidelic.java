@@ -1,6 +1,7 @@
 package resources;
 
 // FORMAT: Goidelic.randomizer() + " mac " + Goidelic.randomizer() = playerName;
+// !!! use a StringBuilder() to accomplish this !!!
 public enum Goidelic {
     Abban,
     Aed,

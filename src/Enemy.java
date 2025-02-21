@@ -3,23 +3,25 @@
  * @return
  */
 public class Enemy {
-    private String name = "";
     private Integer melee;
     private Integer ranged;
     private Integer manpower;
     private Integer firepower;
+    private String name = "";
+    private String meleeUnits = "";
+    private String rangedUnits = "";
+    private String eliteUnits = "";
 
-    public Enemy(String name, Integer melee, Integer ranged, Integer manpower, Integer firepower) {
-        this.name = name;
+    public Enemy(Integer melee, Integer ranged, Integer manpower, Integer firepower, String name, String meleeUnits,
+            String rangedUnits, String eliteUnits) {
         this.melee = melee;
         this.ranged = ranged;
         this.manpower = manpower;
         this.firepower = firepower;
-    }
-
-    public String getName() {
         this.name = name;
-        return name;
+        this.meleeUnits = meleeUnits;
+        this.rangedUnits = rangedUnits;
+        this.eliteUnits = eliteUnits;
     }
 
     public Integer getMelee() {
@@ -40,5 +42,25 @@ public class Enemy {
     public Integer getFirepower() {
         this.firepower = firepower;
         return firepower;
+    }
+
+    public String getName() {
+        this.name = name;
+        return name;
+    }
+
+    public String getMeleeUnits() {
+        this.meleeUnits = meleeUnits;
+        return meleeUnits;
+    }
+
+    public String getRangedUnits() {
+        this.rangedUnits = rangedUnits;
+        return rangedUnits;
+    }
+
+    public String getEliteUnits() {
+        this.eliteUnits = eliteUnits;
+        return eliteUnits;
     }
 }

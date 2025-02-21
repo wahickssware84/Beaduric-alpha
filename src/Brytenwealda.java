@@ -1,15 +1,22 @@
 import java.util.Scanner;
+import java.util.Random; // randomizer
 
 /**
  * @param
  * @return
  */
 public class Brytenwealda {
-
     public static void main(String[] args) {
-        Integer factionID;
+        Integer score = 0;
+        Integer factionID = 0;
         String userInput = "";
         String faction = "";
+        Faction Angles = new Faction(1, "Angles", "");
+        Faction Saxons = new Faction(2, "Saxons", "");
+        Faction Jutes = new Faction(3, "Jutes", "");
+        Faction Britons = new Faction(4, "Britons", "");
+        Faction Picts = new Faction(5, "Picts", "");
+        Faction Gaels = new Faction(6, "Gaels", "");
         String intro = ("Welcome to Brytenwealda!\n");
         String factionPrompt = ("- CHOOSE YOUR FACTION -\n" +
                 "1. Angles\n" + // (Germanic, Pagan)

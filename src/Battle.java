@@ -2,8 +2,7 @@
  * @param
  * @return
  */
-public class Combat {
+public class Battle {
   private Double rateOfAttrition = 1.0;
   private Double playerAttrition, enemyAttrition = rateOfAttrition;
-  private 
 }
