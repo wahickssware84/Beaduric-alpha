@@ -3,18 +3,26 @@
  * @return
  */
 public class Player {
+    // campaign variables
+    private Integer balance = 900; /*
+                                    * The number of scillingas (shillings) the player currently has in their
+                                    * inventory. The initial value is set to 900, as this ensures that the player
+                                    * has no more than 90 soldiers and no less than 36 soldiers upon initiating the
+                                    * first battleSequence().
+                                    */
+    // combat variables
     private Integer melee;
     private Integer ranged;
     private Integer manpower;
     private Integer firepower;
-    private Integer balance;
     private String name = "";
     private String meleeUnits = "";
     private String rangedUnits = "";
     private String eliteUnits = "";
+    private String culture = "";
 
     public Player(Integer melee, Integer ranged, Integer manpower, Integer firepower, Integer balance, String name,
-            String meleeUnits, String rangedUnits, String eliteUnits) {
+            String meleeUnits, String rangedUnits, String eliteUnits, String culture) {
         this.melee = melee;
         this.ranged = ranged;
         this.manpower = manpower;
@@ -24,6 +32,7 @@ public class Player {
         this.meleeUnits = meleeUnits;
         this.rangedUnits = rangedUnits;
         this.eliteUnits = eliteUnits;
+        this.culture = culture;
     }
 
     public Integer getMelee() {
@@ -69,5 +78,10 @@ public class Player {
     public String getEliteUnits() {
         this.eliteUnits = eliteUnits;
         return eliteUnits;
+    }
+
+    public String getCulture() {
+        this.culture = culture;
+        return culture;
     }
 }

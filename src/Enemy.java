@@ -11,9 +11,10 @@ public class Enemy {
     private String meleeUnits = "";
     private String rangedUnits = "";
     private String eliteUnits = "";
+    private String faction = "";
 
     public Enemy(Integer melee, Integer ranged, Integer manpower, Integer firepower, String name, String meleeUnits,
-            String rangedUnits, String eliteUnits) {
+            String rangedUnits, String eliteUnits, String faction) {
         this.melee = melee;
         this.ranged = ranged;
         this.manpower = manpower;
@@ -22,6 +23,7 @@ public class Enemy {
         this.meleeUnits = meleeUnits;
         this.rangedUnits = rangedUnits;
         this.eliteUnits = eliteUnits;
+        this.faction = faction;
     }
 
     public Integer getMelee() {
@@ -62,5 +64,10 @@ public class Enemy {
     public String getEliteUnits() {
         this.eliteUnits = eliteUnits;
         return eliteUnits;
+    }
+
+    public String getFaction() {
+        this.faction = faction;
+        return faction;
     }
 }

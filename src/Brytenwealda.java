@@ -32,9 +32,9 @@ public class Brytenwealda {
         displayWindow(factionPrompt);
         userInput = in.nextLine();
         factionID = Integer.parseInt(userInput);
-        // System.err.print("\t" + factionID);
+        System.err.print("\tFaction ID:" + factionID);
         faction = assignFaction(factionID);
-        // System.err.print("\t" + faction);
+        System.err.print("\tFaction:" + faction);
         displayWindow("THE " + faction.toUpperCase());
     }
 
