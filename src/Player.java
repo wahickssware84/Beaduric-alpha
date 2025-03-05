@@ -4,6 +4,7 @@
  */
 public class Player {
     // campaign variables
+    private Integer score = 0;
     private Integer balance = 900; /*
                                     * The number of scillingas (shillings) the player currently has in their
                                     * inventory. The initial value is set to 900, as this ensures that the player
@@ -21,18 +22,29 @@ public class Player {
     private String eliteUnits = "";
     private String culture = "";
 
-    public Player(Integer melee, Integer ranged, Integer manpower, Integer firepower, Integer balance, String name,
-            String meleeUnits, String rangedUnits, String eliteUnits, String culture) {
+    public Player(Integer score, Integer balance, Integer melee, Integer ranged, Integer manpower, Integer firepower,
+            String name, String meleeUnits, String rangedUnits, String eliteUnits, String culture) {
+        this.score = score;
+        this.balance = balance;
         this.melee = melee;
         this.ranged = ranged;
         this.manpower = manpower;
         this.firepower = firepower;
-        this.balance = balance;
         this.name = name;
         this.meleeUnits = meleeUnits;
         this.rangedUnits = rangedUnits;
         this.eliteUnits = eliteUnits;
         this.culture = culture;
+    }
+
+    public Integer getScore() {
+        this.score = score;
+        return score;
+    }
+
+    public Integer getBalance() {
+        this.balance = balance;
+        return balance;
     }
 
     public Integer getMelee() {
@@ -53,11 +65,6 @@ public class Player {
     public Integer getFirepower() {
         this.firepower = firepower;
         return firepower;
-    }
-
-    public Integer getBalance() {
-        this.balance = balance;
-        return balance;
     }
 
     public String getName() {
