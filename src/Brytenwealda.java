@@ -30,12 +30,12 @@ public class Brytenwealda {
         displayWindow(factionsPrompt);
         userInput = in.nextLine();
         factionID = Integer.parseInt(userInput);
-        // System.err.print("\tFaction ID:" + factionID);
-        
+        System.err.print("\tFaction ID:" + factionID);
+
         // TODO: create method that assigns Faction to Player
-        
-        // System.err.print("\tFaction:" + faction);
-        // displayWindow("THE " + faction.toUpperCase());
+
+        System.err.print("\tFaction:" + faction);
+        displayWindow("THE " + faction.toUpperCase());
     }
 
     public static void displayWindow(String s) {
@@ -50,6 +50,7 @@ public class Brytenwealda {
         }
         System.out.print('\n');
     }
+
     public static void displayBorder() {
         char x = '*';
         int y = 40;
