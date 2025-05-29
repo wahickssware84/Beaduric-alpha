@@ -1,4 +1,7 @@
 ![Logo](src/resources/logo.png)
+<p align="center">
+  <img src="logo.png" alt="My Logo">
+</p>
 # Project Description
 Beaduric is a single-player, text-based strategy game based in the British Isles during the early medieval period (~600AD). To win the game, the player must carefully manage limited troops and resources in order to defeat enemy armies in simulated battles.
 # Installation & Setup
