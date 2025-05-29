@@ -5,7 +5,7 @@ import java.util.Random; // randomizer
  * @param
  * @return
  */
-public class Brytenwealda {
+public class Beaduric {
     public static void main(String[] args) {
         // global variables
         Integer highScore = 0;
