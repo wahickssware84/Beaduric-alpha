@@ -49,6 +49,7 @@
 This project follows a **two-tier architecture**:
 1. **Presentation Layer** - Command-line interface (CLI) that user interacts with during runtime. 
 2. **Game Logic Layer** - Initializes and adjusts essential backend gameplay functionality (e.g., combat mechanics, faction relations) and simulation logic.
+3. **Data Access Layer** – Loads data from enums (.java) and `.csv` files under `src/resources/`; acts as a pseudo-database.
 --
 ## **Data Flow Diagram**
 '''plaintext
