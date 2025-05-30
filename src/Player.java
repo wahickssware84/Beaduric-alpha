@@ -16,11 +16,13 @@ public class Player {
     private Integer ranged;
     private Integer manpower;
     private Integer firepower;
-    private String name = "";
     private String meleeUnits = "";
     private String rangedUnits = "";
     private String eliteUnits = "";
     private String culture = "";
+    private String faction = "";
+    private String name1 = "";
+    private String name2 = "";
 
     public Player(Integer score, Integer balance, Integer melee, Integer ranged, Integer manpower, Integer firepower,
             String name, String meleeUnits, String rangedUnits, String eliteUnits, String culture) {
