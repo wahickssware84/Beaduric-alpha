@@ -1,0 +1,42 @@
+package resources;
+
+// FORMAT: Brythonic.randomizer() + " map " + Brythonic.randomizer() = playerName;
+// !!! use a StringBuilder() to accomplish this !!!
+public enum Brythonic {
+    Aneirin,
+    Arthmael,
+    Brochmail,
+    Brychan,
+    Cadfan,
+    Cadoc,
+    Caratacus,
+    Caratauc,
+    Catell,
+    Catguocan,
+    Cunobelinus,
+    Cynwrig,
+    Dewydd,
+    Elisedd,
+    Enniaun,
+    Grifud,
+    Guorthigirn,
+    Higuel,
+    Iudgual,
+    Iudhail,
+    Iudris,
+    Laloecen,
+    Mailcun,
+    Margetud,
+    Matauc,
+    Mermin,
+    Morcant,
+    Mouric,
+    Nynniaw,
+    Ougein,
+    Riderch,
+    Ris,
+    Rotri,
+    Seisyll,
+    Toutorixs,
+    Urbgen
+}

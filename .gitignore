@@ -1,0 +1,10 @@
+target/
+*.class
+.idea/
+nbproject/private/
+dist/
+build/
+out/
+*.log
+.DS_Store
+Thumbs.db
