@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/resources/logo.png" alt="Logo">
+  <img src="src/main/resources/logo.png" alt="Logo">
 </p>
 
 # Project Description
