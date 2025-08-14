@@ -1,3 +1,4 @@
+// refactor: rename package (Maven compliance)
 // docs: Fix Project Structure section of ARCHITECTURE.md.
 // refactor: Combat.java, CombatTest.java -> Battle.java, BattleTest.java.
 // chore: Create method that assigns a Faction (object) to current Player.
