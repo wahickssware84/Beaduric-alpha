@@ -1,4 +1,4 @@
-package com.github.wahickssware84;
+package io.github.wahickssware84;
 
 import java.util.Scanner;
 import java.util.Random;
