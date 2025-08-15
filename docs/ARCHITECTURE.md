@@ -26,8 +26,8 @@
 │   ├──kingdoms.csv
 │   ├──logo.png
 │   ├──settlements.csv
-│ ├──Beaduric.java
-│ ├──Combat.java
+│ ├──Battle.java
+│ ├──BeaduricAlpha.java
 │ ├──Culture.java
 │ ├──Enemy.java
 │ ├──Faction.java
@@ -35,7 +35,7 @@
 │ ├──Player.java
 │ ├──Settlement.java
 ├── test/
-│ ├──CombatTest.java
+│ ├──BattleTest.java
 │ ├──CultureTest.java
 │ ├──EnemyTest.java
 │ ├──FactionTest.java
