@@ -3,33 +3,31 @@ package io.github.wahickssware84;
 import java.util.Scanner;
 import java.util.Random;
 
-/**
- * @param
- * @return
- */
 public class BeaduricAlpha {
     public static void main(String[] args) {
         // Global variables
-        Integer highScore = 0;
-        Integer factionID = 0;
+        Integer highScore = null;
+        Integer factionID = null;
         String kingdomPool = ""; // for selecting a random Kingdom (based on Faction)
         String settlementPool = ""; // for selecting a random Settlement (based on Kingdom)
         String userInput = "";
         String faction = "";
         String intro = ("Welcome to Beaduric!\n");
-        String factionsPrompt = ("- CHOOSE YOUR FACTION -\n" +
-                "1. Angles (Germanic, Pagan)\n" +
-                "2. Saxons (Germanic, Pagan)\n" +
-                "3. Jutes (Germanic, Christian)\n" +
-                "4. Britons (Brythonic, Christian)\n" +
-                "5. Picts (Brythonic, Pagan)\n" +
-                "6. Gaels (Goidelic, Pagan)\n");
+        String factionsPrompt = ("- CHOOSE YOUR FACTION -\n");
+        String factionsList = (
+                "1. Angles (Germanic)\n" +
+                "2. Saxons (Germanic)\n" +
+                "3. Jutes (Germanic)\n" +
+                "4. Britons (Brythonic)\n" +
+                "5. Picts (Brythonic)\n" +
+                "6. Gaels (Goidelic)\n");
 
         // Create & initialize new Scanner() object
         Scanner in = new Scanner(System.in);
 
         displayWindow(intro);
         displayWindow(factionsPrompt);
+        System.out.print(factionsList);
         userInput = in.nextLine();
         factionID = Integer.parseInt(userInput);
         System.err.print("\tFaction ID:" + factionID);
