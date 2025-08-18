@@ -24,7 +24,8 @@ public class BeaduricAlpha {
 
         // Create & initialize new Scanner() object
         Scanner in = new Scanner(System.in);
-
+        
+        // The entrypoint.
         displayWindow(intro);
         displayWindow(factionsPrompt);
         System.out.print(factionsList);
