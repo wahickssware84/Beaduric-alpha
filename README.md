@@ -23,9 +23,9 @@ The outcome of a given battle is initially calculated using Lanchester's square 
 - [JavaDoc](docs/index.html)
 
 # Dependencies
-Java SE 24 or higher (tested with OpenJDK 24)
-JUnit 5
-Hamcrest
+- Java SE 24 or higher (tested with OpenJDK 24)
+- JUnit 5
+- Hamcrest
 
 # License
 This project is licensed under the [MIT License](LICENSE).
