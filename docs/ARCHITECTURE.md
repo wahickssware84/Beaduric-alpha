@@ -16,7 +16,6 @@
 │ ├──CHANGELOG.md
 │ ├──CLASS_OVERVIEW.md
 │ ├──CONTRIBUTING.md
-│ ├──FAQ.md
 │ ├──SECURITY.md
 ├── src/
 │ ├── resources/
