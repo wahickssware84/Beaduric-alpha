@@ -13,6 +13,9 @@ public class Player {
                                     * first battleSequence().
                                     */
     private String name = "";
+    private String culture = "";
+    private String faction = "";
+    
     // combat variables
     private Integer melee;
     private Integer ranged;
@@ -21,8 +24,7 @@ public class Player {
     private String meleeUnits = "";
     private String rangedUnits = "";
     private String eliteUnits = "";
-    private String culture = "";
-    private String faction = "";
+
 
     public Player(Integer score, Integer balance, Integer melee, Integer ranged, Integer manpower, Integer firepower,
             String name, String meleeUnits, String rangedUnits, String eliteUnits, String culture) {
